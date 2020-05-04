@@ -20,10 +20,10 @@ zuul:
 #  ignored-services: "*"
   prefix: /neu
 
-# 下面是禁用Fileter的配置
-#  AccessTokenFilter:
-#    pre:
-#      disable: true
-#  AccessTokenFilter1:
-#    pre:
-#      disable: true
+# Filter配置
+  AccessTokenFilter:
+    pre:
+      disable: true
+  AccessTokenFilter1:
+    pre:
+      disable: true
